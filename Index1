@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <h1 id = "title"> Survey Form </h1>
+  </head>
+
+  <body>
+<p id = "description"> Description </p>
+   
+<form id = "survey-form"> </form>
+
+<div id = "survey-form">
+<label id="name-label"><b>Name:</b></label>
+            <input id="name" type="name" name="name" class="form" required placeholder="Full Name"><br>
+            <br>
+            </div>
+
+            <div id = "survey-form">
+            <label id="email-label"><b>Email:</b></label>
+            <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br>
+            <br>
+             </div>
+
+<div id = "survey-form">
+            <label id="number-label"><b>Age:</b></label>
+            </div>
+
+           <div id = "survey-form"> 
+            <input id="number" type="number" name="number" class="form" min = "1" max = "4" placeholder=">3">
+            </div>
+
+<div id = "survey-form">
+            <select id = "dropdown"></select>
+
+            <div id ="dropdown"><br><br>
+            <label id="dropdown-label"><strong>Gender </strong></label><br>
+            <select id="dropdown" name="code" class="form"><br><br>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+</div><br><br><br><br>
+
+            <input type = "radio" value = "Attribute and value" name = "Attribute and value"></input>
+            <input type = "radio" value = "Attribute and value" name = "Attribute and value"></input>
+
+            <div id="button-area"><br>
+            <label id="os-label"><b>Colors:</b></label><br>
+            <input type="checkbox" name="Color1" value="Orange"> Orange<br>
+            <input type="checkbox" name="Color2" value="Red"> Red<br>
+            <input type="checkbox" name="Color3" value="Blue"> Blue<br>
+            
+          </div>
+
+<div class="form-control">
+			<label for="comment">
+				Any comments .......
+			</label>
+			<textarea name="comment" id="comment"
+				placeholder="Comment here">
+			</textarea>
+		</div>
+		<button id = "submit" value="submit">
+			Submit
+		</button>
+    
+  </body>
+</html>
